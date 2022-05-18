@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import { v4 as uuidv4 } from "uuid";
 
 const myId = uuidv4();
-const socket = io("adriano-chat.vercel.app");
+const socket = io("chat-app-server-eight.vercel.app");
 //oi tudo bem
 socket.on("connect", () => console.log("[IO] Connect => New Connection"));
 
