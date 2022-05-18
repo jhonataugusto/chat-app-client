@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import { v4 as uuidv4 } from "uuid";
 
 const myId = uuidv4();
-const socket = io("f88f-45-188-91-9.sa.ngrok.io:8080");
+const socket = io("23f6-45-188-91-9.sa.ngrok.io");
 //oi tudo bem
 socket.on("connect", () => console.log("[IO] Connect => New Connection"));
 
