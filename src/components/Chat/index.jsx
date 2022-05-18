@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import { v4 as uuidv4 } from "uuid";
 
 const myId = uuidv4();
-const socket = io("6285376e84af211a5cd5c04d--famous-begonia-165c81.netlify.app");
+const socket = io("famous-begonia-165c81.netlify.app");
 //oi tudo bem
 socket.on("connect", () => console.log("[IO] Connect => New Connection"));
 
